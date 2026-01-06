@@ -13,7 +13,11 @@ class Portal extends AbstractService
 
     public function getUserInfo(): array
     {
-        return [];
+        return [
+            'user_id'  => 'test-1',
+            'email'    => 'test@example.com',
+            'username' => 'testuser'
+        ];
     }
 }
 
