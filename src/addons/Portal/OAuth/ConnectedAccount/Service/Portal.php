@@ -8,7 +8,7 @@ class Portal extends AbstractService
 {
     public function getAuthorizationUrl(): string
     {
-        return 'https://example.com/';
+        return 'https://gradaeronaut.com/oauth/authorize';
     }
 
     public function getUserInfo(): array
