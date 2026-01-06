@@ -15,5 +15,10 @@ class Portal extends AbstractProvider
     {
         return null;
     }
+
+    public function getServiceClass(): string
+    {
+        return \Portal\OAuth\ConnectedAccount\Service\Portal::class;
+    }
 }
 
