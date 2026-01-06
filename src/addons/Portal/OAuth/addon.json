@@ -4,9 +4,13 @@
   "version_id": 1000010,
   "version_string": "1.0.0",
   "dev": "Portal",
-  "dev_url": "",
   "require": {
     "XF": [2030000, "XenForo 2.3.0+"]
+  },
+  "extra": {
+    "connected_account_providers": {
+      "portal": "Portal\\OAuth\\ConnectedAccount\\Provider\\Portal"
+    }
   }
 }
 
