@@ -6,14 +6,14 @@ use XF\ConnectedAccount\Provider\AbstractProvider;
 
 class Portal extends AbstractProvider
 {
+    public function getProviderId(): string
+    {
+        return 'portal';
+    }
+
     public function getTitle(): string
     {
         return 'Portal';
-    }
-
-    public function getIconClass(): ?string
-    {
-        return null;
     }
 
     public function getServiceClass(): string
