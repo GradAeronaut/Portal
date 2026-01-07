@@ -6,8 +6,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     exec('git config --global --add safe.directory ' . __DIR__);
     exec('git fetch origin main 2>&1');
     exec('git reset --hard origin/main 2>&1');
-    exec('nginx -t 2>&1');
-    exec('systemctl reload nginx 2>&1');
     http_response_code(200);
     exit('OK');
 }
