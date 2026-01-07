@@ -1,4 +1,2 @@
 <?php
-
-phpinfo();
-
+require __DIR__ . '/../start/index.php';
