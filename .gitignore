@@ -1,14 +1,56 @@
-# XenForo runtime / state
-/data/
-/internal_data/
-/config.php
-/src/config.php
+# Configuration files with sensitive data
+config/google_oauth.php
+config/smtp.php
 
-# Logs / cache
-*.log
-*.cache
+# Database configuration (if contains real passwords)
+# config/db.php
 
-# OS / IDE
-.DS_Store
-.idea/
+# IDE and Editor files
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+cache/
+
+# PHP
+vendor/
+composer.phar
+composer.lock
+
+# Environment files
+.env
+.env.local
+
+# XenForo Forum - exclude user data and caches
+forum/internal_data/*
+forum/data/*
+forum/install/*
+forum/src/config.php
+
+# Keep important config files for forum structure
+!forum/internal_data/.htaccess
+!forum/data/.htaccess
+
+# Backup files
+*.sql.gz
+*.sql.bak
+*.zip.bak
+
+# Database dumps
+/backups/
+*.dump
+
+# XenForo uploaded files - archive zip
+xenforo_*.zip
+
+

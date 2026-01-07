@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5790.1694"
+   height="1586.3983"
+   viewBox="0 0 1531.9822 419.7345"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   sodipodi:docname="level_matrix.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#d3d3d3"
+     bordercolor="#000000"
+     borderopacity="0.85882353"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d3d3d3"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.34271643"
+     inkscape:cx="2914.9464"
+     inkscape:cy="1313.0389"
+     inkscape:window-width="3040"
+     inkscape:window-height="1387"
+     inkscape:window-x="400"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_Background">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="-150.35069"
+       originy="-49.751191"
+       spacingx="0.99999975"
+       spacingy="0.99999998"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="1675.9542"
+       y="1342.452"
+       width="601.5705"
+       height="50.658566"
+       id="rect8" />
+    <rect
+       x="222.39967"
+       y="275.47235"
+       width="1531.5251"
+       height="667.19904"
+       id="rect82" />
+    <rect
+       x="766.05316"
+       y="679.25897"
+       width="475.48129"
+       height="337.11371"
+       id="rect102" />
+    <linearGradient
+       id="swatch83"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#656565;stop-opacity:1;"
+         offset="0"
+         id="stop83" />
+    </linearGradient>
+    <rect
+       x="2666.8584"
+       y="390.8327"
+       width="3105.2041"
+       height="706.56427"
+       id="rect70" />
+    <rect
+       x="2832.3877"
+       y="514.97955"
+       width="2495.1985"
+       height="560.9599"
+       id="rect69" />
+    <rect
+       x="4832.9927"
+       y="418.37634"
+       width="188.23384"
+       height="35.51582"
+       id="rect9" />
+    <rect
+       x="4813.814"
+       y="476.62228"
+       width="102.28556"
+       height="15.62696"
+       id="rect7" />
+    <rect
+       x="4387.3789"
+       y="255.8445"
+       width="13.533336"
+       height="19.333338"
+       id="rect6" />
+    <rect
+       x="4399.623"
+       y="246.82228"
+       width="212.02226"
+       height="12.888892"
+       id="rect5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch83"
+       id="linearGradient83"
+       x1="490.24713"
+       y1="210.09818"
+       x2="565.29822"
+       y2="210.09818"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98921759,0,0,1.1925365,0.06432351,-39.253385)" />
+  </defs>
+  <g
+     id="Layer_Background"
+     inkscape:label="background"
+     inkscape:groupmode="layer"
+     style="display:inline;fill:#ffffff;fill-opacity:1"
+     transform="translate(-150.35069,-49.751192)">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.28707289;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       id="rect3"
+       width="1531.6951"
+       height="419.44745"
+       x="150.49422"
+       y="49.894718"
+       rx="39.910931"
+       ry="43.448372" />
+  </g>
+  <g
+     id="Layer_FullTable"
+     inkscape:groupmode="layer"
+     inkscape:label="columns"
+     style="fill:#e8e8e8;fill-opacity:1"
+     transform="matrix(1.0457894,0,0,0.98247169,-203.94182,-47.824717)">
+    <rect
+       style="fill:#969696;fill-opacity:1;stroke:none;stroke-width:0.128599"
+       id="rect14"
+       width="109.96975"
+       height="15.113997"
+       x="902.29321"
+       y="141.41173"
+       ry="0" />
+    <rect
+       style="fill:#969696;fill-opacity:1;stroke:none;stroke-width:0.141736"
+       id="rect15"
+       width="133.80487"
+       height="15.089282"
+       x="1399.8333"
+       y="141.48521"
+       ry="0" />
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.252126;stroke-opacity:1"
+       id="rect16"
+       width="134.16757"
+       height="15.163389"
+       x="1399.3835"
+       y="238.2683" />
+    <rect
+       style="fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:0.235511;stroke-opacity:1"
+       id="rect17"
+       width="110.08545"
+       height="15.500897"
+       x="1275.0371"
+       y="172.1754" />
+    <rect
+       style="fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:0.261405;stroke-opacity:1"
+       id="rect18"
+       width="133.89925"
+       height="15.700637"
+       x="1399.6071"
+       y="171.90965" />
+    <rect
+       style="fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:0.233209;stroke-opacity:1"
+       id="rect19"
+       width="109.83478"
+       height="15.234071"
+       x="1150.8289"
+       y="172.04204" />
+    <rect
+       style="fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:0.232999;stroke-opacity:1"
+       id="rect21"
+       width="109.63669"
+       height="15.234071"
+       x="902.51929"
+       y="172.15788" />
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.228221;stroke-opacity:1"
+       id="rect22"
+       width="109.93185"
+       height="15.163389"
+       x="1275.3484"
+       y="238.50426" />
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.228221;stroke-opacity:1"
+       id="rect23"
+       width="109.93185"
+       height="15.163389"
+       x="1150.7832"
+       y="238.58403" />
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.228221;stroke-opacity:1"
+       id="rect24"
+       width="109.93185"
+       height="15.163389"
+       x="1026.3577"
+       y="238.55547" />
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.231937;stroke-opacity:1"
+       id="rect25"
+       width="109.80399"
+       height="15.679342"
+       x="902.07782"
+       y="238.32646" />
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.254914;stroke-opacity:1"
+       id="rect30"
+       width="134.058"
+       height="15.513314"
+       x="1399.4392"
+       y="187.29601" />
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.228139;stroke-opacity:1"
+       id="rect31"
+       width="109.85244"
+       height="15.163389"
+       x="1275.1515"
+       y="187.32414" />
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.228458;stroke-opacity:1"
+       id="rect32"
+       width="109.85244"
+       height="15.205944"
+       x="1150.8179"
+       y="187.53453" />
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.228269;stroke-opacity:1"
+       id="rect33"
+       width="109.97777"
+       height="15.163389"
+       x="1026.5693"
+       y="187.36717" />
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.227624;stroke-opacity:1"
+       id="rect34"
+       width="109.35769"
+       height="15.163389"
+       x="902.78198"
+       y="187.3051" />
+    <rect
+       style="fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:0.24247;stroke-opacity:1"
+       id="rect35"
+       width="631.18707"
+       height="15.307005"
+       x="902.53809"
+       y="223.02324" />
+    <rect
+       style="fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:0.257521;stroke-opacity:1"
+       id="rect36"
+       width="631.18335"
+       height="15.197651"
+       x="902.52631"
+       y="274.09998" />
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.409824;stroke-opacity:1"
+       id="rect37"
+       width="631.08734"
+       height="15.293201"
+       x="902.52631"
+       y="289.28387" />
+    <rect
+       style="fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:1.6823;stroke-opacity:1"
+       id="rect40"
+       width="62.174774"
+       height="15.236408"
+       x="1548.1426"
+       y="171.90788" />
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.25792;stroke-opacity:1"
+       id="rect41"
+       width="62.215233"
+       height="15.250245"
+       x="1548.1058"
+       y="187.24187" />
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;white-space:pre;inline-size:18.3235;display:inline;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+       x="1478.2972"
+       y="157.99962"
+       id="text41"
+       transform="matrix(0.96925467,0,0,1.0317206,119.79553,36.466811)"><tspan
+         x="1478.2972"
+         y="157.99962"
+         id="tspan45"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+           id="tspan42">Kit</tspan></tspan></text>
+    <rect
+       style="fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:1.6823;stroke-opacity:1"
+       id="rect42"
+       width="62.174774"
+       height="15.236408"
+       x="1547.9845"
+       y="223.21153" />
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.25792;stroke-opacity:1"
+       id="rect43"
+       width="62.215233"
+       height="15.250245"
+       x="1547.9478"
+       y="238.54552" />
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+       x="1601.7297"
+       y="243.07162"
+       id="text43"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan43"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1601.7297"
+         y="243.07162">Kit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="1481.3164"
+       y="178.10086"
+       id="text49"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan49"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1481.3164"
+         y="178.10086">$ 125,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="1481.3163"
+       y="193.65585"
+       id="text50"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan50"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1481.3163"
+         y="193.65585">$ 125,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="1481.1912"
+       y="227.90256"
+       id="text51"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan51"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1481.1912"
+         y="227.90256">$ 125,000</tspan></text>
+    <rect
+       style="fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:0.257472;stroke-opacity:1"
+       id="rect38"
+       width="630.94586"
+       height="15.197651"
+       x="902.53656"
+       y="324.73193" />
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.409738;stroke-opacity:1"
+       id="rect39"
+       width="630.81934"
+       height="15.293201"
+       x="902.45691"
+       y="340.40454" />
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="1481.3959"
+       y="242.63895"
+       id="text52"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan52"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1481.3959"
+         y="242.63895">$ 125,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="1481.4934"
+       y="277.27341"
+       id="text53"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan53"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1481.4934"
+         y="277.27341">$ 125,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="1481.4934"
+       y="292.00967"
+       id="text54"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan54"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1481.4934"
+         y="292.00967">$ 115,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="1482.3326"
+       y="327.38571"
+       id="text55"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan55"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1482.3326"
+         y="327.38571">$ 125,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="1482.5374"
+       y="342.32669"
+       id="text56"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan56"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1482.5374"
+         y="342.32669">$ 125,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="1342.7234"
+       y="178.24692"
+       id="text57"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan57"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1342.7234"
+         y="178.24692">$ 105,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="1342.5735"
+       y="192.79062"
+       id="text58"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan58"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1342.5735"
+         y="192.79062">$ 105,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="1343.0779"
+       y="243.00302"
+       id="text59"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan59"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1343.0779"
+         y="243.00302">$ 105,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="1218.3048"
+       y="178.97598"
+       id="text60"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan60"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1218.3048"
+         y="178.97598">$ 85,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.3233px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.256736"
+       x="1198.1433"
+       y="196.82678"
+       id="text61"
+       transform="scale(0.98544323,1.0147718)"><tspan
+         sodipodi:role="line"
+         id="tspan61"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.256736"
+         x="1198.1433"
+         y="196.82678">$ 85,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="1218.291"
+       y="243.00308"
+       id="text62"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan62"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1218.291"
+         y="243.00308">$ 85,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="1089.7557"
+       y="242.90292"
+       id="text63"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan63"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1089.7557"
+         y="242.90292">$ 65,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="1090.0084"
+       y="193.11111"
+       id="text64"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan64"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1090.0084"
+         y="193.11111">$ 65,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="962.12054"
+       y="178.49429"
+       id="text66"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan66"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="962.12054"
+         y="178.49429">$ 45,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="961.82068"
+       y="193.03799"
+       id="text67"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan67"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="961.82068"
+         y="193.03799">$ 45,000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="961.87048"
+       y="242.90292"
+       id="text68"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan68"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="961.87048"
+         y="242.90292">$ 45,000</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.25299865,0,0,0.26930374,51.244666,-1.9608455)"
+       id="text69"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next';text-align:end;letter-spacing:0px;white-space:pre;shape-inside:url(#rect69);display:inline" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.25299865,0,0,0.26930374,51.244666,-1.9608455)"
+       id="text70"
+       style="font-weight:500;font-size:48px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:end;letter-spacing:0px;white-space:pre;shape-inside:url(#rect70);display:inline" />
+    <rect
+       style="fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:1.6823;stroke-opacity:1"
+       id="rect76"
+       width="62.174774"
+       height="15.236408"
+       x="1547.6582"
+       y="273.5592" />
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.25792;stroke-opacity:1"
+       id="rect77"
+       width="62.215233"
+       height="15.250245"
+       x="1547.6215"
+       y="288.89313" />
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+       x="1601.3929"
+       y="291.87131"
+       id="text77"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan77"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1601.3929"
+         y="291.87131">Kit</tspan></text>
+    <rect
+       style="fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.25792;stroke-opacity:1"
+       id="rect78"
+       width="62.215233"
+       height="15.250245"
+       x="1547.9592"
+       y="339.789" />
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+       x="1601.7413"
+       y="341.20236"
+       id="text79"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan79"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1601.7413"
+         y="341.20236">Kit</tspan></text>
+    <rect
+       style="fill:#969696;fill-opacity:1;stroke:none;stroke-width:0.262595;stroke-opacity:1"
+       id="rect71"
+       width="105.16797"
+       height="30.506371"
+       x="782.98718"
+       y="172.0255" />
+    <rect
+       style="fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:1.6823;stroke-opacity:1"
+       id="rect80"
+       width="62.174774"
+       height="15.236408"
+       x="1547.996"
+       y="324.45502" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.25299865,0,0,0.26930374,51.244666,-1.9608455)"
+       id="text102"
+       style="font-weight:500;font-size:48px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';letter-spacing:0px;white-space:pre;shape-inside:url(#rect102);display:inline" />
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';letter-spacing:0px;white-space:pre;inline-size:0;stroke-width:0.261024"
+       x="275.26538"
+       y="311.19415"
+       id="text111"
+       transform="scale(0.96925469,1.0317206)"><tspan
+         id="tspan111"
+         style="fill:#000000;fill-opacity:0;stroke-width:0.261024"
+         x="275.26538"
+         y="311.19415" /></text>
+    <rect
+       style="fill:#969696;fill-opacity:1;stroke:none;stroke-width:0.262595;stroke-opacity:1"
+       id="rect72"
+       width="105.16797"
+       height="30.506371"
+       x="782.97827"
+       y="222.66887" />
+    <rect
+       style="fill:#969696;fill-opacity:1;stroke:none;stroke-width:0.128599"
+       id="rect26"
+       width="109.96975"
+       height="15.113997"
+       x="1026.7708"
+       y="141.97319"
+       ry="0" />
+    <rect
+       style="fill:#969696;fill-opacity:1;stroke:none;stroke-width:0.128599"
+       id="rect29"
+       width="109.96975"
+       height="15.113997"
+       x="1150.7206"
+       y="141.97319"
+       ry="0" />
+    <rect
+       style="fill:#969696;fill-opacity:1;stroke:none;stroke-width:0.128599"
+       id="rect44"
+       width="109.96975"
+       height="15.113997"
+       x="1275.4617"
+       y="141.97319"
+       ry="0" />
+    <rect
+       style="fill:#f1f1f1;fill-opacity:1;stroke-width:0.931759"
+       id="rect79"
+       width="109.94068"
+       height="15.060759"
+       x="1026.5865"
+       y="172.09904" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="active-frame"
+     transform="translate(-150.35069,-49.751192)"
+     id="g1" />
+  <g
+     id="Layer_LevelsColumn"
+     inkscape:groupmode="layer"
+     inkscape:label="indicators"
+     transform="matrix(1.0457894,0,0,0.98247169,-203.94182,-47.824717)">
+    <rect
+       style="fill:#969696;fill-opacity:1;stroke:none;stroke-width:0.262595;stroke-opacity:1"
+       id="rect73"
+       width="105.16797"
+       height="30.506371"
+       x="782.71454"
+       y="274.16388" />
+    <rect
+       style="fill:#969696;fill-opacity:1;stroke:none;stroke-width:0.262595;stroke-opacity:1"
+       id="rect74"
+       width="105.16797"
+       height="30.506371"
+       x="782.98718"
+       y="324.39093" />
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;stroke-width:0.261024"
+       x="836.22443"
+       y="185.76083"
+       id="text74"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan74"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.261024"
+         x="836.22443"
+         y="185.76083">Premium</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';letter-spacing:0px;stroke-width:0.261024"
+       x="820.07111"
+       y="285.14188"
+       id="text75"
+       transform="scale(0.96925467,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan75"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.261024"
+         x="820.07111"
+         y="285.14188">Discont Credit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';letter-spacing:0px;white-space:pre;inline-size:85.826;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.261024"
+       x="659.67444"
+       y="267.61551"
+       id="text76"
+       transform="matrix(0.96925469,0,0,1.0317206,156.45186,68.823721)"><tspan
+         x="659.67444"
+         y="267.61551"
+         id="tspan47"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+           id="tspan46">Position Lock</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.7px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:end;letter-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+       x="885.78113"
+       y="242.76842"
+       id="text71"
+       inkscape:transform-center-x="-0.44482632"
+       inkscape:transform-center-y="-31.582669"><tspan
+         sodipodi:role="line"
+         id="tspan71"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         x="885.78113"
+         y="242.76842">Sinbad Standard</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:start;letter-spacing:0px;text-anchor:start;fill:#e8e8e8;fill-opacity:1;stroke-width:0.261024"
+       x="1090.1541"
+       y="178.25052"
+       id="text65"
+       transform="scale(0.96925466,1.0317206)"><tspan
+         sodipodi:role="line"
+         id="tspan65"
+         style="text-align:start;text-anchor:start;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+         x="1090.1541"
+         y="178.25052">$ 65,000</tspan></text>
+  </g>
+  <g
+     id="Layer_OtherElements"
+     inkscape:groupmode="layer"
+     inkscape:label="labels"
+     transform="translate(-150.35069,-49.751192)">
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.7px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Medium';text-align:end;letter-spacing:0px;text-anchor:end;fill:#e8e8e8;fill-opacity:1;stroke-width:0.264583"
+       x="1627.2151"
+       y="182.68349"
+       id="text39"><tspan
+         sodipodi:role="line"
+         id="tspan39"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#111111;fill-opacity:1;stroke-width:0.264583"
+         x="1627.2151"
+         y="182.68349">Assembly</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.7px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Medium';text-align:end;letter-spacing:0px;text-anchor:end;fill:#e8e8e8;fill-opacity:1;stroke-width:0.264583"
+       x="1626.5189"
+       y="232.55696"
+       id="text44"><tspan
+         sodipodi:role="line"
+         id="tspan44"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#111111;fill-opacity:1;stroke-width:0.264583"
+         x="1626.5189"
+         y="232.55696">Assembly</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.7px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Medium';text-align:end;letter-spacing:0px;text-anchor:end;fill:#e8e8e8;fill-opacity:1;stroke-width:0.264583"
+       x="1626.1775"
+       y="282.02209"
+       id="text78"><tspan
+         sodipodi:role="line"
+         id="tspan78"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#111111;fill-opacity:1;stroke-width:0.264583"
+         x="1626.1775"
+         y="282.02209">Assembly</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.7px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Medium';text-align:end;letter-spacing:0px;text-anchor:end;fill:#e8e8e8;fill-opacity:1;stroke-width:0.264583"
+       x="1626.5308"
+       y="332.02582"
+       id="text80"><tspan
+         sodipodi:role="line"
+         id="tspan80"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#111111;fill-opacity:1;stroke-width:0.264583"
+         x="1626.5308"
+         y="332.02582">Assembly</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458331,0,0,0.26458331,-7.3400267,-3.9055917)"
+       id="text5"
+       style="font-weight:500;font-size:12px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Medium';text-align:end;letter-spacing:0px;white-space:pre;shape-inside:url(#rect5);display:inline" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458331,0,0,0.26458331,-7.3400267,-3.9055917)"
+       id="text6"
+       style="font-weight:500;font-size:12px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Medium';text-align:end;letter-spacing:0px;white-space:pre;shape-inside:url(#rect6);display:inline" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458331,0,0,0.26458331,-7.3400267,-3.9055917)"
+       id="text7"
+       style="font-weight:500;font-size:12px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Medium';text-align:end;letter-spacing:0px;white-space:pre;shape-inside:url(#rect7);display:inline" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458331,0,0,0.26458331,-7.3400267,-3.9055917)"
+       id="text9"
+       style="font-weight:500;font-size:12px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Medium';text-align:end;letter-spacing:0px;white-space:pre;shape-inside:url(#rect9);display:inline" />
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:3.175px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Medium';text-align:end;letter-spacing:0px;text-anchor:end;stroke-width:0.264583"
+       x="1199.0332"
+       y="173.69568"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="stroke-width:0.264583"
+         x="1199.0332"
+         y="173.69568" /></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:13.4126px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Medium';text-align:start;letter-spacing:0px;text-anchor:start;white-space:pre;inline-size:248.356;display:inline;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="1164.9193"
+       y="68.203712"
+       id="text14"
+       transform="matrix(0.90207773,0,0,0.99274597,-145.56081,87.491793)"><tspan
+         x="1164.9193"
+         y="68.203712"
+         id="tspan72"><tspan
+           style="font-weight:bold;font-size:20.1305px;-inkscape-font-specification:'Avenir Next Bold'"
+           id="tspan48">1-100</tspan><tspan
+           style="font-size:10.0652px"
+           id="tspan69">Members</tspan><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+           id="tspan70">
+</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:13.4126px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Medium';text-align:start;letter-spacing:0px;text-anchor:start;white-space:pre;inline-size:248.356;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="1164.9193"
+       y="68.203712"
+       id="text15"
+       transform="matrix(0.90388188,0,0,0.99274597,361.34005,86.790233)"><tspan
+         x="1164.9193"
+         y="68.203712"
+         id="tspan76"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+           id="tspan73">Production/Sales Start</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;fill:#111111;fill-opacity:1;stroke-width:0.264583"
+       x="199.06125"
+       y="180.90358"
+       id="text89"><tspan
+         id="tspan89"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';fill:#111111;fill-opacity:1;stroke-width:0.264583"
+         x="199.06125"
+         y="180.90358"
+         sodipodi:role="line">Premium Status – <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-width:0.264583"
+   id="tspan83">Kit and factory assembly price locked at the moment</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans Italic';text-align:end;letter-spacing:0px;text-anchor:end;white-space:pre;inline-size:491.089;display:inline;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+       x="514.14923"
+       y="187.22247"
+       id="text95"
+       transform="matrix(1.0136363,0,0,1.0136363,83.453751,8.2643528)"><tspan
+         x="514.14923"
+         y="187.22247"
+         id="tspan82"><tspan
+           style="font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+           id="tspan81">of your Premium reservation,along with all other privileges due to you</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';letter-spacing:0px;white-space:pre;inline-size:417.062;display:inline;stroke-width:0.261024"
+       x="132.99648"
+       y="111.63454"
+       id="text97"
+       transform="matrix(1.0136363,0,0,1.0136363,71.398487,117.62413)"><tspan
+         x="132.99648"
+         y="111.63454"
+         id="tspan91"><tspan
+           style="font-style:italic;font-weight:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+           id="tspan84">For </tspan><tspan
+           style="font-style:italic;font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic'"
+           id="tspan90">Sinbad Standard,</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:13.4126px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Medium';text-align:start;letter-spacing:0px;text-anchor:start;white-space:pre;inline-size:248.356;display:inline;fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="1164.9193"
+       y="68.203712"
+       id="text29"
+       transform="matrix(0.90207773,0,0,0.99274597,-31.654612,88.594883)"><tspan
+         x="1164.9193"
+         y="68.203712"
+         id="tspan96"><tspan
+           style="font-weight:bold;font-size:20.1305px;-inkscape-font-specification:'Avenir Next Bold';fill:#ffffff"
+           id="tspan92">101-200</tspan><tspan
+           style="font-size:10.0652px;fill:#ffffff"
+           id="tspan93">Members</tspan><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffff00"
+           id="tspan95">
+</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:13.4126px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Medium';text-align:start;letter-spacing:0px;text-anchor:start;white-space:pre;inline-size:248.356;display:inline;fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="1164.9193"
+       y="68.203712"
+       id="text33"
+       transform="matrix(0.90207773,0,0,0.99274597,97.971296,88.319083)"><tspan
+         x="1164.9193"
+         y="68.203712"
+         id="tspan101"><tspan
+           style="font-weight:bold;font-size:20.1305px;-inkscape-font-specification:'Avenir Next Bold';fill:#ffffff"
+           id="tspan97">201-300</tspan><tspan
+           style="font-size:10.0652px;fill:#ffffff"
+           id="tspan98">Members</tspan><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffff00"
+           id="tspan99">
+</tspan></tspan></text>
+    <g
+       inkscape:groupmode="layer"
+       id="layer1"
+       inkscape:label="Layer 1" />
+    <g
+       id="Layer_BalanceLeftText"
+       transform="matrix(1.0457894,0,0,0.98247168,66.409028,117.92873)">
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:end;letter-spacing:0px;text-anchor:end;white-space:pre;inline-size:229.15;display:inline;stroke-width:0.261024"
+         x="516.46497"
+         y="130.47792"
+         id="text98"
+         transform="matrix(0.96925467,0,0,1.0317206,13.998044,-2.2074342)"><tspan
+           x="516.46497"
+           y="130.47792"
+           id="tspan103"><tspan
+             style="font-style:italic;font-weight:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';fill:#111111"
+             id="tspan102">along with all other privileges due to you</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:end;letter-spacing:0px;text-anchor:end;white-space:pre;inline-size:391.851;display:inline;stroke-width:0.261024"
+         x="516.43219"
+         y="159.17336"
+         id="text99"
+         transform="matrix(0.96925467,0,0,1.0317206,13.998044,1.6555757)"><tspan
+           x="516.43219"
+           y="159.17336"
+           id="tspan106"><tspan
+             style="font-style:italic;font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';fill:#111111"
+             id="tspan104">Discount Credit – </tspan><tspan
+             style="font-style:italic;font-weight:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+             id="tspan105">$10,000 discount off the price at purchase</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:end;letter-spacing:0px;text-anchor:end;stroke-width:0.261024"
+         x="530.79535"
+         y="177.88408"
+         id="text100"
+         transform="scale(0.96925467,1.0317206)"><tspan
+           sodipodi:role="line"
+           id="tspan100"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5291px;font-family:Arial;-inkscape-font-specification:'Arial Italic';text-align:end;text-anchor:end;fill:#111111;fill-opacity:1;stroke-width:0.261024"
+           x="530.79535"
+           y="177.88408">and a fixed queue position</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:12.5291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';text-align:end;letter-spacing:0px;text-anchor:end;white-space:pre;inline-size:273.843;display:inline;stroke-width:0.261024"
+         x="515.37628"
+         y="218.39951"
+         id="text101"
+         transform="matrix(0.96925467,0,0,1.0317206,15.034936,-1.3796464)"><tspan
+           x="515.37628"
+           y="218.39951"
+           id="tspan109"><tspan
+             style="font-style:italic;font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';fill:#111111"
+             id="tspan107">Position Lock – </tspan><tspan
+             style="font-style:italic;font-weight:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+             id="tspan108">Fixed queue position for the kit</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:14.8167px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';letter-spacing:0px;white-space:pre;inline-size:191.646;display:inline;stroke-width:0.264583"
+         x="349.80951"
+         y="117.95902"
+         id="text118"
+         transform="matrix(0.95602265,0,0,1.2213664,42.186767,-104.89029)"><tspan
+           x="349.80951"
+           y="117.95902"
+           id="tspan112"><tspan
+             style="font-weight:bold;-inkscape-font-specification:'Sans Bold'"
+             id="tspan110">Your Total Balance:</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:12.7px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';letter-spacing:0px;stroke-width:0.264583"
+         x="199.2861"
+         y="2.9785957"
+         id="text119"><tspan
+           sodipodi:role="line"
+           id="tspan119"
+           style="fill:#d40000;stroke-width:0.264583"
+           x="199.2861"
+           y="2.9785957">The introductory $100 bonus is valid until the end of the promotion</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:12.7px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';letter-spacing:0px;stroke-width:0.264583"
+         x="736.01215"
+         y="3.0513334"
+         id="text121"><tspan
+           sodipodi:role="line"
+           id="tspan121"
+           style="stroke-width:0.264583"
+           x="736.01215"
+           y="3.0513334">When you reserve, your price locks at the current rate. Right now, the first-hundred members’ price is still active</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.25299864,0,0,0.26930374,62.739082,-23.167886)"
+         id="text82"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;white-space:pre;shape-inside:url(#rect82);display:inline" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-size:12.5291px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Italic';text-align:end;letter-spacing:0px;text-anchor:end;stroke-width:0.261024"
+         x="532.96802"
+         y="111.61729"
+         id="text94"
+         transform="scale(0.96925467,1.0317206)"><tspan
+           sodipodi:role="line"
+           id="tspan94"
+           style="stroke-width:0.261024"
+           x="532.96802"
+           y="111.61729">the kit price is locked within your bayer hundred,</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:16.1789px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';letter-spacing:0px;stroke-width:0.292849"
+         x="346.62894"
+         y="275.09811"
+         id="use4"
+         transform="scale(0.9243428,1.0818497)"><tspan
+           sodipodi:role="line"
+           id="tspan10"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.1789px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.292849"
+           x="346.62894"
+           y="275.09811">To activate the selected tier, top up your balance to the corresponding amount</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.25299865,0,0,0.26930374,3.9608711,-99.683994)"
+         id="text4"
+         style="font-style:italic;font-size:48px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Italic';letter-spacing:0px;white-space:pre;shape-inside:url(#rect8);display:inline" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:13.4126px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Medium';text-align:start;letter-spacing:0px;text-anchor:start;white-space:pre;inline-size:248.356;display:inline;fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="1164.9193"
+       y="68.203712"
+       id="text48"
+       transform="matrix(0.90207773,0,0,0.99274597,228.42448,88.043393)"><tspan
+         x="1164.9193"
+         y="68.203712"
+         id="tspan116"><tspan
+           style="font-weight:bold;font-size:20.1305px;-inkscape-font-specification:'Avenir Next Bold';fill:#ffffff"
+           id="tspan113">301-400</tspan><tspan
+           style="font-size:10.0652px;fill:#ffffff"
+           id="tspan114">Members</tspan><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffff00"
+           id="tspan115">
+</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.2635px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;stroke-width:0.25412"
+       x="578.61591"
+       y="436.08456"
+       id="text42"
+       transform="scale(1.0124026,0.98774935)"><tspan
+         sodipodi:role="line"
+         id="tspan41"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.2635px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.25412"
+         x="578.61591"
+         y="436.08456">Your balance is fully credited toward the final price</tspan></text>
+  </g>
+  <path
+     id="rect81"
+     style="fill:#dad2c9;stroke:url(#linearGradient83);stroke-width:3.32501839;stroke-dasharray:none;fill-opacity:1"
+     d="m 485.02545,121.81507 c 24.55948,-6.69477 50.14045,-6.91032 74.24186,0 V 300.7777 c -22.36243,4.35964 -46.8671,5.65863 -74.24186,0 z"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     id="rect2"
+     style="fill:#00d400;stroke-width:1.12825"
+     d="m 486.61532,283.91658 h 71.05613 v 15.68953 c -25.14902,4.8788 -48.52342,3.84222 -71.05613,0 z"
+     sodipodi:nodetypes="ccccc" />
+  <rect
+     style="fill:#111111;fill-opacity:1;stroke:none;stroke-width:1.16542;stroke-dasharray:none;stroke-opacity:1"
+     id="rect83"
+     width="8.7581978"
+     height="2.3359084"
+     x="549.24207"
+     y="161.33543" />
+  <rect
+     style="fill:#111111;fill-opacity:1;stroke:none;stroke-width:1.16542;stroke-dasharray:none;stroke-opacity:1"
+     id="rect84"
+     width="8.7581978"
+     height="2.3359084"
+     x="549.09448"
+     y="209.3219" />
+  <rect
+     style="fill:#111111;fill-opacity:1;stroke:none;stroke-width:1.16542;stroke-dasharray:none;stroke-opacity:1"
+     id="rect85"
+     width="8.7581978"
+     height="2.3359084"
+     x="549.09448"
+     y="257.30838" />
+  <text
+     xml:space="preserve"
+     style="font-weight:500;font-size:14.8167px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';letter-spacing:0px;stroke-width:0.289802"
+     x="553.0163"
+     y="131.90749"
+     id="text85"
+     transform="scale(0.91279488,1.0955364)"><tspan
+       sodipodi:role="line"
+       id="tspan85"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8167px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.289802"
+       x="553.0163"
+       y="131.90749">$ 7,950</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:500;font-size:14.8167px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';letter-spacing:0px;stroke-width:0.289802"
+     x="553.3927"
+     y="175.29153"
+     id="text86"
+     transform="scale(0.91279488,1.0955364)"><tspan
+       id="tspan86"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8167px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.289802"
+       x="553.3927"
+       y="175.29153"
+       sodipodi:role="line">$ 3,950</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:500;font-size:14.8167px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';letter-spacing:0px;stroke-width:0.289802"
+     x="566.18738"
+     y="218.58987"
+     id="text87"
+     transform="scale(0.91279488,1.0955364)"><tspan
+       sodipodi:role="line"
+       id="tspan87"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8167px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.289802"
+       x="566.18738"
+       y="218.58987">$ 490</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:500;font-size:14.8167px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';letter-spacing:0px;stroke-width:0.289802"
+     x="565.13507"
+     y="262.11923"
+     id="text88"
+     transform="scale(0.91279488,1.0955364)"><tspan
+       sodipodi:role="line"
+       id="tspan88"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8167px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.289802"
+       x="565.13507"
+       y="262.11923">$ 290</tspan></text>
+  <rect
+     style="fill:#ffffff;stroke-width:0.3"
+     id="rect4"
+     width="0"
+     height="0"
+     x="137.83392"
+     y="65.622696"
+     rx="0"
+     ry="0"
+     transform="translate(-150.35069,-49.751192)" />
+  <text
+     xml:space="preserve"
+     style="font-weight:500;font-size:16.9334px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Medium';letter-spacing:0px;stroke-width:0.289802"
+     x="543.46271"
+     y="97.382523"
+     id="text117"
+     transform="scale(0.9127949,1.0955364)"><tspan
+       sodipodi:role="line"
+       id="tspan117"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.9334px;font-family:Sans;-inkscape-font-specification:'Sans Bold';stroke-width:0.289802"
+       x="543.46271"
+       y="97.382523">$ 100</tspan></text>
+</svg>

@@ -1,0 +1,314 @@
+/* =========================================
+   GLOBAL
+========================================= */
+body {
+    background:#f7f7f7;
+    margin:0;
+    font-family:"IBM Plex Sans", sans-serif;
+}
+
+/* =========================================
+   CARD
+========================================= */
+.auth-card {
+    width:360px;
+    margin:60px auto;
+    padding:44px 36px 36px;
+    background:#fcfcfc;
+    border-radius:0;
+    box-shadow:0 8px 24px rgba(0,0,0,0.06);
+    box-sizing:border-box;
+    position:relative;
+}
+
+/* =========================================
+   CLOSE BUTTON  (как кнопки)
+========================================= */
+.close-btn {
+    position:absolute;
+    top:18px;
+    right:18px;
+    width:14px;
+    height:14px;
+    cursor:pointer;
+    text-indent:-9999px;
+    overflow:hidden;
+}
+.close-btn::before,
+.close-btn::after {
+    content:'';
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:14px;
+    height:1px;
+    background:#888;
+    transition:background 0.2s;
+}
+.close-btn::before {
+    transform:translate(-50%, -50%) rotate(45deg);
+}
+.close-btn::after {
+    transform:translate(-50%, -50%) rotate(-45deg);
+}
+.close-btn:hover::before,
+.close-btn:hover::after {
+    background:#666;
+}
+
+/* =========================================
+   LOGО
+========================================= */
+.card-logo {
+    text-align:center;
+    margin-bottom:28px;
+}
+.card-logo img {
+    width:61%;
+    display:block;
+    margin:0 auto;
+}
+
+/* =========================================
+   LABELS — под линией (правильная логика)
+========================================= */
+label {
+    display:block;
+    margin-top:4px;
+    margin-bottom:0px;
+    padding-left:3px;
+    font-size:13px;
+    font-weight:500;
+    color:#555;
+}
+
+/* =========================================
+   INPUTS — PREMIUM (bottom-border)
+========================================= */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width:100%;
+    height:38px;
+    border:none;
+    border-bottom:1px solid #ddd;
+    background:transparent;
+    font-size:15px;
+    padding:0 0 0 10px;
+    outline:none;
+    box-sizing:border-box;
+}
+input[type="text"]:not(.password-wrapper input),
+input[type="email"]:not(.password-wrapper input) {
+    margin-top:14px;
+}
+input:focus {
+    border-color:#bbb;
+}
+
+/* =========================================
+   ERROR — под полем, компактно
+========================================= */
+.error {
+    color:#C0392B;
+    font-size:12px;
+    margin:2px 0 8px 0;
+}
+.error a {
+    color:#C0392B;
+    text-decoration:underline;
+}
+.error a:hover {
+    color:#A93226;
+    text-decoration:none;
+}
+
+/* =========================================
+   PASSWORD ICONS
+========================================= */
+.password-wrapper {
+    position:relative;
+    margin-top:14px;
+}
+.password-wrapper input {
+    width:100%;
+    padding-right:30px;
+    padding-left:10px;
+    box-sizing:border-box;
+}
+.pass-toggle {
+    position:absolute;
+    right:3px;
+    top:50%;
+    transform:translateY(-50%);
+    width:14px;
+    height:14px;
+    cursor:pointer;
+    opacity:0.5;
+    transition:opacity 0.2s;
+}
+.pass-toggle:hover {
+    opacity:0.8;
+}
+.pass-toggle svg {
+    width:100%;
+    height:100%;
+    stroke:#666;
+    stroke-width:2;
+    fill:none;
+}
+
+/* =========================================
+   BUTTONS
+========================================= */
+.primary-btn,
+.secondary-btn {
+    width:100%;
+    height:40px;
+    border-radius:0;
+    font-size:15px;
+    font-weight:500;
+    cursor:pointer;
+}
+
+/* Primary (green) */
+.primary-btn {
+    background:#7ac385cc;
+    border:none;
+    color:#fff;
+}
+.primary-btn:hover {
+    background:#6bb87acc;
+}
+
+/* Secondary */
+.secondary-btn {
+    background:#fff;
+    border:1px solid #ccc;
+    color:#333;
+}
+.secondary-btn:hover {
+    background:#f2f2f2;
+}
+
+/* Create Account button spacing */
+#reg-submit {
+    margin-top:14px;
+}
+
+/* BUTTON ROW */
+.btn-row {
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+    margin-top:20px;
+}
+
+/* =========================================
+   REGISTRATION BLOCK
+========================================= */
+.name-block {
+    margin-bottom:36px;
+}
+.name-block input[type="text"] {
+    margin-top:0;
+}
+.reg-block {
+    position:relative;
+    margin-top:6px;
+}
+.reg-block input[type="email"] {
+    margin-top:0;
+}
+#registration-form {
+    margin:0;
+    padding:0;
+}
+
+/* =========================================
+   OVERLAY — правильный, мягкий, блокирует
+========================================= */
+.overlay {
+    position:absolute;
+    inset:0;
+    background:rgba(255,255,255,0.55);
+    border-radius:0;
+    opacity:1;              /* включен по умолчанию */
+    pointer-events:all;     /* блокирует */
+    transition:opacity .25s ease;
+}
+.overlay:not(.active) {
+    opacity:0;
+    pointer-events:none;
+}
+
+/* =========================================
+   FORM SEPARATOR (OR divider with lines)
+========================================= */
+.form-separator {
+    text-align:center;
+    margin:18px 0;
+    font-size:13px;
+    color:#999;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    position:relative;
+    display:flex;
+    align-items:center;
+    gap:16px;
+}
+.form-separator::before,
+.form-separator::after {
+    content:'';
+    flex:1;
+    height:1px;
+    background:#e0e0e0;
+}
+
+/* =========================================
+   GOOGLE BUTTON
+========================================= */
+.google-btn {
+    width:100%;
+    height:40px;
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:0;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:500;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.04);
+}
+.google-btn:hover {
+    background:#f8f8f8;
+}
+.google-icon {
+    width:16px;
+    height:16px;
+}
+
+/* =========================================
+   VERIFICATION PENDING MESSAGE
+========================================= */
+.verification-pending {
+    margin-top:20px;
+    padding:20px;
+    background:#f8f9fa;
+    border:1px solid #e0e0e0;
+    border-radius:0;
+}
+
+.verification-pending p {
+    margin:0 0 16px 0;
+    font-size:14px;
+    color:#333;
+    line-height:1.5;
+}
+
+.verification-pending .secondary-btn {
+    margin-top:0;
+}

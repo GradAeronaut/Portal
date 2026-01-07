@@ -1,0 +1,42 @@
+<div class="map-block fade-section" id="map-block" style="height:500px;width:100vw;max-width:100%;">
+<div class="map-wrapper">
+    <div id="map"></div>
+    <button class="open-mapinfo-btn" onclick="toggleMapInfo()">Change your map informations</button>
+    
+    <div class="map-modal-container" id="mapInfoModal">
+        <div class="map-info-content">
+            <span class="map-info-close" onclick="closeMapInfo()">×</span>
+
+            <label for="inputName" class="map-info-label">Name or nickname:</label>
+            <input id="inputName" type="text" value="John Smith" class="map-info-input">
+
+            <label class="map-info-label">Aircraft serial number from the manufacturer:</label>
+            <div class="map-info-select" onclick="toggleNumberDropdown()">
+                <span id="numberSelectValue">Select aircraft number</span>
+                <span>▾</span>
+            </div>
+
+            <div class="map-info-dropdown" id="numberDropdown">
+                <div class="map-info-number-list" id="numberList"></div>
+                <div class="map-info-pagination">
+                    <button class="map-info-pagination-btn" onclick="prevPage()">◀</button>
+                    <span id="pageIndicator">Page 1</span>
+                    <button class="map-info-pagination-btn" onclick="nextPage()">▶</button>
+                </div>
+            </div>
+
+            <label class="map-info-checkbox">
+                <input type="checkbox" id="showMarkerCheckbox" checked> Show my marker on the map
+            </label>
+
+            <div style="text-align: center;">
+                <button class="map-info-save-btn" onclick="saveMapInfo()">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+

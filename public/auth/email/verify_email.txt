@@ -1,0 +1,14 @@
+Hello,
+
+You created an account in the Sinbad Portal.
+
+To confirm your email address, please click the link below:
+{{VERIFY_LINK}}
+
+This is an automated message. Please do not reply to this email.
+If you did not create this account, you can safely ignore this email.
+
+— Sinbad Portal
+
+
+

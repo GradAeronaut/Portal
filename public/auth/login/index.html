@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sign In — Sinbad Portal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js?v=857072c" defer></script>
+
+</head>
+<body>
+
+<div class="auth-card">
+
+    <!-- CLOSE BUTTON -->
+    <a href="/" class="close-btn">✕</a>
+
+    <!-- LOGO -->
+    <div class="card-logo">
+        <img src="/auth/auth-assets/logo_Sinbad_black.svg" alt="Sinbad logo">
+    </div>
+
+    <!-- MESSAGE TEXT -->
+    <div class="login-message">
+        You need to sign in to access this page
+    </div>
+
+    <!-- LOGIN FORM -->
+    <div class="login-block">
+
+        <form id="login-form" autocomplete="on">
+            <input type="email" id="email" name="email" autocomplete="email" autofocus>
+            <label id="email-label" for="email">Email</label>
+            <div id="email-error" class="error"></div>
+
+            <div class="password-wrapper">
+                <input type="password" id="password" name="password" autocomplete="current-password">
+                <div class="pass-toggle" data-target="password"></div>
+            </div>
+            <label for="password">Password</label>
+            <div id="pass-error" class="error"></div>
+
+            <div id="form-error" class="error"></div>
+
+            <button type="submit" id="login-submit" class="primary-btn">Sign In</button>
+        </form>
+
+        <div class="form-separator">or</div>
+
+        <!-- GOOGLE BUTTON with ICON -->
+        <button id="google-btn" class="google-btn">
+            <svg class="google-icon" viewBox="0 0 18 18" aria-hidden="true">
+                <path d="M9.0002 7.34627V10.8308H13.9418C13.7269 11.9646 13.1106 12.9072 12.1874 13.5345L14.8655 15.605C16.5554 14.0533 17.5201 11.7984 17.5201 8.99998C17.5201 8.39576 17.4654 7.81311 17.3629 7.2536L9.0002 7.34627Z" fill="#4285F4"/>
+                <path d="M9.00013 17.28C11.4301 17.28 13.4784 16.4745 14.8654 15.605L12.1873 13.5345C11.4172 14.0665 10.3746 14.4 9.00013 14.4C6.64009 14.4 4.63632 12.8186 3.87434 10.701L1.10645 12.7828C2.56491 15.9654 5.55852 17.28 9.00013 17.28Z" fill="#34A853"/>
+                <path d="M3.87434 10.7009C3.67404 10.1689 3.56038 9.59043 3.56038 8.99998C3.56038 8.40952 3.67404 7.83103 3.87434 7.29903L1.10645 5.21721C0.585678 6.35594 0.300049 7.6304 0.300049 8.99998C0.300049 10.3695 0.585678 11.644 1.10645 12.7827L3.87434 10.7009Z" fill="#FBBC05"/>
+                <path d="M9.00013 3.59996C10.5095 3.59996 11.8125 4.10868 12.799 5.03098L15.0066 2.82333C13.4748 1.39487 11.4266 0.719971 9.00013 0.719971C5.55852 0.719971 2.56491 2.03458 1.10645 5.21718L3.87434 7.29896C4.63632 5.18139 6.64009 3.59996 9.00013 3.59996Z" fill="#EA4335"/>
+            </svg>
+            Sign In with Google
+        </button>
+
+    </div>
+
+    <!-- LINKS -->
+    <div class="form-links">
+        <a href="/auth/recover/">Forgot password?</a>
+        <a href="/auth/familiarity/">Create an Account</a>
+    </div>
+
+</div>
+
+</body>
+</html>

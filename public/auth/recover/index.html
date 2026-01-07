@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Reset Password — Sinbad Portal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
+</head>
+<body>
+
+<div class="auth-card">
+
+    <!-- CLOSE BUTTON -->
+    <a href="/" class="close-btn">✕</a>
+
+    <!-- LOGO -->
+    <div class="card-logo">
+        <img src="/auth/auth-assets/logo_Sinbad_black.svg" alt="Sinbad logo">
+    </div>
+
+    <!-- MESSAGE TEXT -->
+    <div class="recover-message">
+        You can reset your password using your email
+    </div>
+
+    <!-- RECOVER FORM -->
+    <div class="recover-block">
+
+        <form id="recover-form" autocomplete="on">
+            <input type="email" id="email" name="email" autocomplete="email" autofocus>
+            <label for="email">Email</label>
+            <div id="error" class="error"></div>
+
+            <button type="submit" id="submit-btn" class="primary-btn">Send reset link</button>
+        </form>
+
+    </div>
+
+    <!-- LINKS -->
+    <div class="form-links">
+        <a href="/auth/login/">Back to Sign In</a>
+    </div>
+
+</div>
+
+</body>
+</html>

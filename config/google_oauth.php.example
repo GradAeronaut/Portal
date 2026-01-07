@@ -1,0 +1,33 @@
+<?php
+/**
+ * Google OAuth2 Configuration - Example
+ * Sinbad Portal - Google OAuth Settings
+ * 
+ * ИНСТРУКЦИЯ:
+ * 1. Скопируйте этот файл как google_oauth.php
+ * 2. Замените placeholder-значения на ваши реальные из Google Cloud Console
+ * 3. См. подробную инструкцию в GOOGLE_OAUTH_SETUP.md
+ */
+
+return [
+    // Client ID из Google Cloud Console
+    // Пример: '123456789-abcdef.apps.googleusercontent.com'
+    'client_id' => 'YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com',
+    
+    // Client Secret из Google Cloud Console
+    // Пример: 'GOCSPX-AbCdEf1234567890'
+    'client_secret' => 'YOUR_GOOGLE_CLIENT_SECRET',
+    
+    // Scopes для запроса (email, profile, openid - минимальные)
+    // Можно добавить дополнительные scopes если нужно:
+    // 'openid email profile https://www.googleapis.com/auth/user.birthday.read'
+    'scopes' => 'openid email profile',
+    
+    // URL для редиректа (будет сформирован автоматически)
+    // Убедитесь, что этот URL добавлен в Authorized redirect URIs в Google Cloud Console
+    // Например: http://localhost/app/google_callback.php
+    //          https://yourdomain.com/app/google_callback.php
+    'redirect_uri_path' => '/app/google_callback.php',
+];
+
+

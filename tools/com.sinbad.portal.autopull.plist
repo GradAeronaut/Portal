@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.sinbad.portal.autopull</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/user/Desktop/sinbad-portal-local/tools/mac-auto-pull.sh</string>
+    </array>
+    
+    <key>StartInterval</key>
+    <integer>300</integer>
+    
+    <key>RunAtLoad</key>
+    <true/>
+    
+    <key>StandardOutPath</key>
+    <string>/Users/user/Library/Logs/sinbad-portal-auto-pull.log</string>
+    
+    <key>StandardErrorPath</key>
+    <string>/Users/user/Library/Logs/sinbad-portal-auto-pull.error.log</string>
+    
+    <key>WorkingDirectory</key>
+    <string>/Users/user/Desktop/sinbad-portal-local</string>
+</dict>
+</plist>
+
+

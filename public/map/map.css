@@ -1,0 +1,325 @@
+.map-block {
+    height: 500px;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.map-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: transparent !important;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    background: transparent !important;
+}
+
+@media(min-width:1001px) {
+    #map-block {
+        height: 500px !important;
+        width: 100vw !important;
+        max-width: 100% !important;
+        margin: 0 auto;
+    }
+    .map-wrapper, #map {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #map-block {
+        height: 100vh !important;
+    }
+    .map-wrapper {
+        height: 550px !important;
+    }
+}
+
+/* кнопка на карте, бледно-серая, острые углы */
+.open-mapinfo-btn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    z-index: 100;
+    background: #9ca3af;
+    color: #fff;
+    border: 0;
+    padding: 12px 16px;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 0;
+    cursor: pointer;
+    transition: background .3s;
+    width: 420px;
+    max-width: calc(100% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.open-mapinfo-btn:hover {
+    background: #6b7280;
+}
+
+/* Модальное окно - исправленное позиционирование */
+.map-modal-container {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    width: 420px;
+    z-index: 1000;
+    display: none;
+    max-width: calc(100% - 40px);
+    box-sizing: border-box;
+}
+
+.map-info-content {
+    background: #f9fafb;
+    border-radius: 0 0 12px 12px;
+    padding: 18px 20px 52px 20px;
+    box-shadow: 0 18px 30px rgba(15,23,42,0.18);
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.map-info-group {
+    margin-bottom: 14px;
+}
+
+.map-info-group:last-of-type {
+    margin-bottom: 0;
+}
+
+.map-info-title {
+    margin: 0 40px 16px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+}
+
+/* Исправляем цвет крестика */
+.map-info-close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+}
+
+.map-info-label {
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #6b7280;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.map-info-input {
+    width: 100%;
+    padding: 9px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #ffffff;
+    box-sizing: border-box;
+    color: #000;
+    box-shadow: 0 0 0 1px #e5e7eb;
+    height: 40px;
+    line-height: 20px;
+}
+
+.map-info-inscription-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 0;
+}
+
+.map-info-inscription-wrapper .map-info-input {
+    margin-bottom: 0;
+}
+
+.map-info-counter {
+    font-size: 12px;
+    color: #4b5563;
+    white-space: nowrap;
+}
+
+.map-info-select {
+    width: 100%;
+    padding: 9px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    box-sizing: border-box;
+    color: #000;
+    box-shadow: 0 0 0 1px #e5e7eb;
+}
+
+.map-info-dropdown {
+    display: none;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 16px 30px rgba(15,23,42,0.25);
+    padding: 8px 8px 10px 8px;
+    text-align: left;
+    width: 100%;
+    margin-top: -10px;
+    max-height: 180px;
+    overflow-y: auto;
+    position: relative;
+    z-index: 102;
+    color: #000;
+}
+
+.map-info-number-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: monospace;
+    white-space: pre;
+    color: #000;
+}
+
+.map-info-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    color: #000;
+}
+
+.map-info-pagination-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+}
+
+.map-info-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: #000;
+}
+
+.map-info-group-checkbox {
+    margin-top: 4px;
+}
+
+.map-info-save-btn {
+    background: #9ca3af;
+    color: white;
+    padding: 9px 20px;
+    font-size: 13px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    min-width: 180px;
+}
+
+.map-info-actions {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.map-info-save-btn:hover {
+    background: #6b7280;
+}
+
+.map-info-tooltip-icon {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #9ca3af;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #4b5563;
+    background: #f9fafb;
+    cursor: pointer;
+}
+
+.map-info-tooltip {
+    position: absolute;
+    right: 16px;
+    bottom: 48px;
+    max-width: 260px;
+    padding: 10px 12px;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+    font-size: 12px;
+    line-height: 1.4;
+    color: #111827;
+    display: none;
+    z-index: 101;
+}
+
+@media(max-width:1000px) {
+    h2.screen-title {
+        font-size: 32px;
+    }
+    p.screen-subtitle {
+        font-size: 14px;
+    }
+    .open-mapinfo-btn {
+        top: 0;
+        right: 10px;
+        font-size: 13px;
+        padding: 10px 12px;
+        width: 300px;
+        max-width: calc(100% - 20px);
+    }
+    .map-modal-container {
+        right: 10px;
+        width: 300px;
+        max-width: calc(100% - 20px);
+        top: 32px;
+    }
+}
+
+@media(max-width:480px) {
+    .open-mapinfo-btn {
+        width: 100%;
+        right: 0;
+        max-width: none;
+        border-radius: 0;
+    }
+    .map-modal-container {
+        right: 0;
+        width: 100%;
+        max-width: none;
+        top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    #map-block {
+        margin-bottom: 200px;
+        background: #fff;
+    }
+}

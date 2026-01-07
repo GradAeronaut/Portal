@@ -1,0 +1,20 @@
+<?php
+/**
+ * SMTP Configuration for Migadu
+ * 
+ * Copy this file to smtp.php and fill in your credentials.
+ * DO NOT commit smtp.php to version control!
+ */
+
+return [
+    'host' => 'smtp.migadu.com',
+    'port' => 587,  // Use 587 for STARTTLS or 465 for SSL
+    'encryption' => 'tls',  // 'tls' for STARTTLS, 'ssl' for SSL
+    'username' => 'your-email@yourdomain.com',  // Your Migadu email address
+    'password' => 'your-password',  // Your Migadu password
+    'from_email' => 'noreply@yourdomain.com',  // Sender email address
+    'from_name' => 'Sinbad Portal',  // Sender name
+];
+
+
+

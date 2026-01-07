@@ -1,0 +1,351 @@
+/* Menu styles - изолированы для элементов меню */
+
+/* Menu container */
+.sinbad-menu {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+    z-index: 10000 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    margin-top: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Logo styling - absolute positioning on left */
+.menu-logo {
+    position: absolute;
+    left: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* SVG logo styling */
+.menu-logo-svg {
+    display: block;
+    height: 40px;
+    width: auto;
+    transition: filter 0.3s ease;
+}
+
+/* Hide burger button on desktop */
+.burger-btn {
+    display: none;
+}
+
+/* Hide mobile menu on desktop */
+.mobile-menu {
+    display: none;
+}
+
+/* Menu items list */
+.menu-items {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+}
+
+/* Menu list items */
+.menu-items li {
+    position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+/* Menu links */
+.menu-items li a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+/* Underline effect base */
+.menu-items li::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    transition: width 0.3s ease;
+    background-color: currentColor;
+    transform: translateX(-50%);
+}
+
+/* Hover state */
+.menu-items li:hover::after {
+    width: 80%;
+}
+
+/* Active state - идентичен hover, только подчёркивание */
+.menu-items li.active {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.menu-items li.active::after {
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+}
+
+/* ============================================ */
+/* MODE A: Start Page (Transparent) */
+/* ============================================ */
+.sinbad-menu[data-location="start"] {
+    background-color: transparent;
+    height: 60px;
+    padding: 10px 40px;
+}
+
+.sinbad-menu[data-location="start"] .menu-logo-svg {
+    filter: brightness(0) invert(1);
+}
+
+.sinbad-menu[data-location="start"] .menu-items li {
+    color: #FFF;
+}
+
+.sinbad-menu[data-location="start"] .menu-items li a {
+    color: #FFF;
+}
+
+.sinbad-menu[data-location="start"] .menu-items li::after {
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.sinbad-menu[data-location="start"] .menu-logo {
+    display: none !important;
+}
+
+.sinbad-menu[data-location="start"].menu-hidden {
+    transform: translateY(-100%);
+}
+
+/* ============================================ */
+/* MODE B: Other Pages (Static - Light) */
+/* ============================================ */
+.sinbad-menu[data-location="static"] {
+    background-color: transparent;
+    height: 60px;
+    padding: 10px 40px;
+}
+
+.sinbad-menu[data-location="static"] .menu-logo-svg {
+    filter: brightness(0) invert(1);
+}
+
+.sinbad-menu[data-location="static"] .menu-items li {
+    color: #FFF;
+}
+
+.sinbad-menu[data-location="static"] .menu-items li a {
+    color: #FFF;
+}
+
+.sinbad-menu[data-location="static"] .menu-items li::after {
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.sinbad-menu[data-location="static"].menu-hidden {
+    transform: translateY(0) !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* ============================================ */
+/* MOBILE VERSION */
+/* ============================================ */
+@media (max-width: 768px) {
+    .sinbad-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        padding: 0 20px;
+        background-color: #fff !important;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        z-index: 9999;
+        justify-content: space-between;
+    }
+
+    .menu-logo {
+        position: static;
+        left: auto;
+    }
+
+    .menu-logo a {
+        display: block;
+    }
+
+    .menu-logo-svg {
+        height: 34px;
+        filter: none !important;
+        shape-rendering: crispEdges;
+    }
+
+    .menu-logo-svg path {
+        fill: #222 !important;
+        stroke: #222 !important;
+    }
+
+    .menu-items {
+        display: none;
+    }
+
+    .burger-btn {
+        width: 28px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        color: #222;
+    }
+
+    .burger-btn span {
+        display: block;
+        height: 3px;
+        width: 100%;
+        background: currentColor;
+        border-radius: 2px;
+        transition: all 0.3s ease;
+    }
+
+    .burger-btn.active span:nth-child(1) {
+        transform: rotate(45deg) translateY(9px);
+    }
+
+    .burger-btn.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger-btn.active span:nth-child(3) {
+        transform: rotate(-45deg) translateY(-9px);
+    }
+
+    .mobile-menu {
+        position: fixed;
+        top: 0;
+        right: -190px;
+        width: 190px;
+        height: 100vh;
+        background: #fff;
+        box-shadow: -4px 0 12px rgba(0, 0, 0, 0.1);
+        padding: 80px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        transition: right 0.25s ease;
+        z-index: 99999;
+    }
+
+    .mobile-menu.open {
+        right: 0;
+    }
+
+    .mobile-menu a {
+        font-size: 20px;
+        font-weight: 500;
+        color: #222;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .mobile-menu a:hover {
+        color: #7ac385;
+    }
+
+    .sinbad-menu.menu-hidden {
+        transform: translateY(0) !important;
+    }
+}
+
+/* Полное удаление всех фонов у меню - должно быть в конце, чтобы перекрывать все правила */
+.sinbad-menu,
+.sinbad-menu::before,
+.sinbad-menu::after {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+/* ============================================ */
+/* MEMBERSHIP BUTTON */
+/* ============================================ */
+.menu-membership-btn {
+    position: absolute !important;
+    right: 40px !important;
+    top: calc(50% + 10px) !important;
+    transform: translateY(-50%) !important;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 100 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    text-decoration: none !important;
+    padding: 7px 14px !important;
+    border: 1px solid rgba(255, 255, 255, 0.35) !important;
+    border-radius: 999px !important;
+    background: transparent !important;
+    transition: opacity 0.3s ease !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    line-height: 1 !important;
+    z-index: 10001 !important;
+    white-space: nowrap !important;
+    color: #FFF !important;
+    box-sizing: border-box !important;
+    max-width: calc(100% - 80px) !important;
+}
+
+.menu-membership-btn:hover {
+    opacity: 0.7 !important;
+}
+
+/* Start page - white text */
+.sinbad-menu[data-location="start"] .menu-membership-btn {
+    color: #FFF !important;
+    border-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+/* Static/other pages - white text */
+.sinbad-menu[data-location="static"] .menu-membership-btn {
+    color: #FFF !important;
+    border-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+/* Shape-sinbad page - white text (same as static) */
+.sinbad-menu[data-location="shape-sinbad"] .menu-membership-btn {
+    color: #FFF !important;
+    border-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .menu-membership-btn {
+        display: none;
+    }
+}
+

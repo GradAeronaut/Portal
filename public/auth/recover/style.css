@@ -1,0 +1,180 @@
+/* =========================================
+   GLOBAL
+========================================= */
+body {
+    background:#f7f7f7;
+    margin:0;
+    font-family:"IBM Plex Sans", sans-serif;
+}
+
+/* =========================================
+   CARD
+========================================= */
+.auth-card {
+    width:360px;
+    margin:60px auto;
+    padding:44px 36px 36px;
+    background:#fcfcfc;
+    border-radius:0;
+    box-shadow:0 8px 24px rgba(0,0,0,0.06);
+    box-sizing:border-box;
+    position:relative;
+}
+
+/* =========================================
+   CLOSE BUTTON
+========================================= */
+.close-btn {
+    position:absolute;
+    top:18px;
+    right:18px;
+    width:14px;
+    height:14px;
+    cursor:pointer;
+    text-indent:-9999px;
+    overflow:hidden;
+}
+.close-btn::before,
+.close-btn::after {
+    content:'';
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:14px;
+    height:1px;
+    background:#888;
+    transition:background 0.2s;
+}
+.close-btn::before {
+    transform:translate(-50%, -50%) rotate(45deg);
+}
+.close-btn::after {
+    transform:translate(-50%, -50%) rotate(-45deg);
+}
+.close-btn:hover::before,
+.close-btn:hover::after {
+    background:#666;
+}
+
+/* =========================================
+   LOGО
+========================================= */
+.card-logo {
+    text-align:center;
+    margin-bottom:28px;
+}
+.card-logo img {
+    width:61%;
+    display:block;
+    margin:0 auto;
+}
+
+/* =========================================
+   RECOVER MESSAGE
+========================================= */
+.recover-message {
+    font-size:14px;
+    font-weight:400;
+    color:#666;
+    text-align:center;
+    margin:0 0 24px;
+}
+
+/* =========================================
+   LABELS — под линией
+========================================= */
+label {
+    display:block;
+    margin-top:4px;
+    margin-bottom:0px;
+    padding-left:3px;
+    font-size:13px;
+    font-weight:500;
+    color:#555;
+}
+
+/* =========================================
+   INPUTS — PREMIUM (bottom-border)
+========================================= */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width:100%;
+    height:38px;
+    border:none;
+    border-bottom:1px solid #ddd;
+    background:transparent;
+    font-size:15px;
+    padding:0 0 0 10px;
+    outline:none;
+    box-sizing:border-box;
+}
+input[type="email"] {
+    margin-top:0;
+}
+input:focus {
+    border-color:#bbb;
+}
+
+/* =========================================
+   ERROR — под полем, компактно
+========================================= */
+.error {
+    color:#d9534f;
+    font-size:12px;
+    margin:2px 0 8px 0;
+}
+
+/* =========================================
+   BUTTONS
+========================================= */
+.primary-btn {
+    width:100%;
+    height:40px;
+    border-radius:0;
+    font-size:15px;
+    font-weight:500;
+    cursor:pointer;
+    background:#7ac385cc;
+    border:none;
+    color:#fff;
+    margin-top:14px;
+}
+.primary-btn:hover {
+    background:#6bb87acc;
+}
+.primary-btn:disabled {
+    background:#a8d7bc;
+    cursor:default;
+}
+
+/* =========================================
+   RECOVER BLOCK
+========================================= */
+.recover-block {
+    position:relative;
+}
+#recover-form {
+    margin:0;
+    padding:0;
+}
+
+/* =========================================
+   LINKS
+========================================= */
+.form-links {
+    margin-top:24px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+.form-links a {
+    font-size:13px;
+    color:#666;
+    text-decoration:none;
+}
+.form-links a:hover {
+    color:#7ac385;
+    text-decoration:underline;
+}

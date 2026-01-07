@@ -1,0 +1,297 @@
+/* =========================================
+   GLOBAL
+========================================= */
+body {
+    background:#f7f7f7;
+    margin:0;
+    font-family:"IBM Plex Sans", sans-serif;
+}
+
+/* =========================================
+   CARD
+========================================= */
+.auth-card {
+    width:360px;
+    margin:60px auto;
+    padding:44px 36px 36px;
+    background:#fcfcfc;
+    border-radius:0;
+    box-shadow:0 8px 24px rgba(0,0,0,0.06);
+    box-sizing:border-box;
+    position:relative;
+}
+
+/* =========================================
+   CLOSE BUTTON
+========================================= */
+.close-btn {
+    position:absolute;
+    top:18px;
+    right:18px;
+    width:14px;
+    height:14px;
+    cursor:pointer;
+    text-indent:-9999px;
+    overflow:hidden;
+}
+.close-btn::before,
+.close-btn::after {
+    content:'';
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:14px;
+    height:1px;
+    background:#888;
+    transition:background 0.2s;
+}
+.close-btn::before {
+    transform:translate(-50%, -50%) rotate(45deg);
+}
+.close-btn::after {
+    transform:translate(-50%, -50%) rotate(-45deg);
+}
+.close-btn:hover::before,
+.close-btn:hover::after {
+    background:#666;
+}
+
+/* =========================================
+   LOGО
+========================================= */
+.card-logo {
+    text-align:center;
+    margin-bottom:28px;
+}
+.card-logo img {
+    width:61%;
+    display:block;
+    margin:0 auto;
+}
+
+/* =========================================
+   LOGIN MESSAGE
+========================================= */
+.login-message {
+    font-size:14px;
+    font-weight:400;
+    color:#666;
+    text-align:center;
+    margin:0 0 24px;
+}
+
+/* =========================================
+   LABELS — под линией
+========================================= */
+label {
+    display:block;
+    margin-top:4px;
+    margin-bottom:0px;
+    padding-left:3px;
+    font-size:13px;
+    font-weight:500;
+    color:#555;
+}
+label a {
+    color:#555;
+    text-decoration:underline;
+    cursor:pointer;
+}
+label a:hover {
+    color:#333;
+    text-decoration:none;
+}
+label a.disabled {
+    color:#999;
+    cursor:default;
+    text-decoration:none;
+}
+
+/* =========================================
+   INPUTS — PREMIUM (bottom-border)
+========================================= */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width:100%;
+    height:38px;
+    border:none;
+    border-bottom:1px solid #ddd;
+    background:transparent;
+    font-size:15px;
+    padding:0 0 0 10px;
+    outline:none;
+    box-sizing:border-box;
+    margin-top:14px;
+}
+input[type="email"]:first-of-type {
+    margin-top:0;
+}
+input:focus {
+    border-color:#bbb;
+}
+
+/* =========================================
+   ERROR — под полем, компактно
+========================================= */
+.error {
+    color:#d9534f;
+    font-size:12px;
+    margin:2px 0 8px 0;
+}
+.error a {
+    color:#d9534f;
+    text-decoration:underline;
+    cursor:pointer;
+}
+.error a:hover {
+    color:#c9302c;
+    text-decoration:none;
+}
+.error a.disabled {
+    color:#999;
+    cursor:default;
+    text-decoration:none;
+}
+
+/* =========================================
+   PASSWORD ICONS
+========================================= */
+.password-wrapper {
+    position:relative;
+    margin-top:14px;
+}
+.password-wrapper input {
+    width:100%;
+    padding-right:30px;
+    padding-left:10px;
+    box-sizing:border-box;
+}
+.pass-toggle {
+    position:absolute;
+    right:3px;
+    top:50%;
+    transform:translateY(-50%);
+    width:14px;
+    height:14px;
+    cursor:pointer;
+    opacity:0.5;
+    transition:opacity 0.2s;
+}
+.pass-toggle:hover {
+    opacity:0.8;
+}
+.pass-toggle svg {
+    width:100%;
+    height:100%;
+    stroke:#666;
+    stroke-width:2;
+    fill:none;
+}
+
+/* =========================================
+   BUTTONS
+========================================= */
+.primary-btn {
+    width:100%;
+    height:40px;
+    border-radius:0;
+    font-size:15px;
+    font-weight:500;
+    cursor:pointer;
+    background:#7ac385cc;
+    border:none;
+    color:#fff;
+    margin-top:14px;
+}
+.primary-btn:hover {
+    background:#6bb87acc;
+}
+.primary-btn:disabled {
+    background:#a8d7bc;
+    cursor:default;
+}
+
+/* =========================================
+   LOGIN BLOCK
+========================================= */
+.login-block {
+    position:relative;
+}
+#login-form {
+    margin:0;
+    padding:0;
+}
+
+/* =========================================
+   FORM SEPARATOR (OR divider with lines)
+========================================= */
+.form-separator {
+    text-align:center;
+    margin:18px 0;
+    font-size:13px;
+    color:#999;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    position:relative;
+    display:flex;
+    align-items:center;
+    gap:16px;
+}
+.form-separator::before,
+.form-separator::after {
+    content:'';
+    flex:1;
+    height:1px;
+    background:#e0e0e0;
+}
+
+/* =========================================
+   GOOGLE BUTTON
+========================================= */
+.google-btn {
+    width:100%;
+    height:40px;
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:0;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:500;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.04);
+}
+.google-btn:hover {
+    background:#f8f8f8;
+}
+.google-btn:disabled {
+    opacity:0.6;
+    cursor:default;
+}
+.google-icon {
+    width:16px;
+    height:16px;
+}
+
+/* =========================================
+   LINKS
+========================================= */
+.form-links {
+    margin-top:24px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+.form-links a {
+    font-size:13px;
+    color:#666;
+    text-decoration:none;
+}
+.form-links a:hover {
+    color:#7ac385;
+    text-decoration:underline;
+}

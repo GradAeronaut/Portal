@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Reset Password — Sinbad Portal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
+</head>
+<body>
+
+<div class="auth-card">
+
+    <!-- CLOSE BUTTON -->
+    <a href="/" class="close-btn">✕</a>
+
+    <!-- LOGO -->
+    <div class="card-logo">
+        <img src="/auth/auth-assets/logo_Sinbad_black.svg" alt="Sinbad logo">
+    </div>
+
+    <!-- MESSAGE TEXT -->
+    <div class="reset-message">
+        Reset your password
+    </div>
+
+    <!-- RESET FORM -->
+    <div class="reset-block">
+
+        <form id="reset-form" autocomplete="off">
+            <div class="password-wrapper">
+                <input type="password" id="new-pass" name="new-password" autocomplete="new-password" autofocus>
+                <div class="pass-toggle" data-target="new-pass"></div>
+            </div>
+            <label for="new-pass">New password</label>
+            <div id="pass-error" class="error"></div>
+
+            <div class="password-wrapper">
+                <input type="password" id="new-pass-repeat" name="password-repeat" autocomplete="new-password">
+                <div class="pass-toggle" data-target="new-pass-repeat"></div>
+            </div>
+            <label for="new-pass-repeat">Repeat new password</label>
+            <div id="repeat-error" class="error"></div>
+
+            <div id="form-error" class="error"></div>
+
+            <button type="submit" id="submit-btn" class="primary-btn">Reset Password</button>
+        </form>
+
+    </div>
+
+    <!-- LINKS -->
+    <div class="form-links">
+        <a href="/auth/login/">Back to Sign In</a>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+
