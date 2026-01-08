@@ -5,17 +5,10 @@
 if (session_status() !== PHP_SESSION_ACTIVE) {
     session_start();
 }
-
-// Простая проверка: если мы на странице start, скрываем логотип сразу
-$isStartPage = false;
-$requestUri = $_SERVER['REQUEST_URI'] ?? '';
-if (strpos($requestUri, '/start') !== false || strpos($requestUri, '/start/') !== false) {
-    $isStartPage = true;
-}
 ?>
 
 <nav class="sinbad-menu" data-location="shape-sinbad">
-    <div class="menu-logo"<?= $isStartPage ? ' style="display: none !important;"' : '' ?>>
+    <div class="menu-logo">
         <a href="/start/" style="text-decoration:none; display:block;">
             <img src="/menu/logo_Sinbad_menu.svg"
                  class="menu-logo-svg"
@@ -48,5 +41,24 @@ if (strpos($requestUri, '/start') !== false || strpos($requestUri, '/start/') !=
     <a href="/about/">About</a>
 </div>
 
+<script>
+// Устанавливаем data-location сразу, до загрузки внешнего скрипта
+(function() {
+    const path = window.location.pathname;
+    const pathParts = path.split('/').filter(part => part !== '');
+    const currentPage = pathParts.length > 0 && ['start', 'shape-sinbad', 'about'].includes(pathParts[0]) 
+        ? pathParts[0] 
+        : 'start';
+    
+    const menu = document.querySelector('.sinbad-menu');
+    if (menu) {
+        if (currentPage === 'start') {
+            menu.setAttribute('data-location', 'start');
+        } else {
+            menu.setAttribute('data-location', 'static');
+        }
+    }
+})();
+</script>
 <script src="/menu/menu.js"></script>
 
