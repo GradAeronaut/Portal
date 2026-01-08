@@ -5,9 +5,18 @@
 if (session_status() !== PHP_SESSION_ACTIVE) {
     session_start();
 }
+
+// Определяем текущую страницу из URL
+$currentPath = $_SERVER['REQUEST_URI'] ?? '/';
+$pathParts = explode('/', trim($currentPath, '/'));
+$currentPage = !empty($pathParts[0]) ? $pathParts[0] : 'start';
+
+// Устанавливаем data-location в зависимости от страницы
+// Для страницы start используем 'start', для остальных - 'static'
+$menuLocation = ($currentPage === 'start') ? 'start' : 'static';
 ?>
 
-<nav class="sinbad-menu" data-location="shape-sinbad">
+<nav class="sinbad-menu" data-location="<?= htmlspecialchars($menuLocation) ?>">
     <div class="menu-logo">
         <a href="/start/" style="text-decoration:none; display:block;">
             <img src="/menu/logo_Sinbad_menu.svg"
