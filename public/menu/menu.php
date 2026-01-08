@@ -6,40 +6,16 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
     session_start();
 }
 
-// Определяем текущую страницу
-// Если переменная $menuPage установлена из вызывающего скрипта, используем её
-// Иначе определяем из URL
-if (isset($menuPage) && in_array($menuPage, ['start', 'shape-sinbad', 'about', 'static'])) {
-    $currentPage = $menuPage;
-} else {
-    // Определяем из URL
-    $requestUri = $_SERVER['REQUEST_URI'] ?? '/';
-    $pathParts = explode('/', trim(parse_url($requestUri, PHP_URL_PATH), '/'));
-    $currentPage = !empty($pathParts[0]) ? $pathParts[0] : 'start';
-    
-    // Если не удалось определить, проверяем SCRIPT_NAME
-    if (!in_array($currentPage, ['start', 'shape-sinbad', 'about'])) {
-        $scriptName = $_SERVER['SCRIPT_NAME'] ?? '';
-        $scriptParts = explode('/', trim($scriptName, '/'));
-        foreach ($scriptParts as $part) {
-            if (in_array($part, ['start', 'shape-sinbad', 'about'])) {
-                $currentPage = $part;
-                break;
-            }
-        }
-        if (!in_array($currentPage, ['start', 'shape-sinbad', 'about'])) {
-            $currentPage = 'start';
-        }
-    }
+// Простая проверка: если мы на странице start, скрываем логотип сразу
+$isStartPage = false;
+$requestUri = $_SERVER['REQUEST_URI'] ?? '';
+if (strpos($requestUri, '/start') !== false || strpos($requestUri, '/start/') !== false) {
+    $isStartPage = true;
 }
-
-// Устанавливаем data-location в зависимости от страницы
-// Для страницы start используем 'start', для остальных - 'static'
-$menuLocation = ($currentPage === 'start') ? 'start' : 'static';
 ?>
 
-<nav class="sinbad-menu" data-location="<?= htmlspecialchars($menuLocation) ?>">
-    <div class="menu-logo"<?= ($menuLocation === 'start') ? ' style="display: none !important;"' : '' ?>>
+<nav class="sinbad-menu" data-location="shape-sinbad">
+    <div class="menu-logo"<?= $isStartPage ? ' style="display: none !important;"' : '' ?>>
         <a href="/start/" style="text-decoration:none; display:block;">
             <img src="/menu/logo_Sinbad_menu.svg"
                  class="menu-logo-svg"
